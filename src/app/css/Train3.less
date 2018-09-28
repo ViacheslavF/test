@@ -1,0 +1,35 @@
+#train3 {
+  position:absolute;
+  margin-left: 411px;
+  top: -22px;
+  -moz-transform: rotate(42deg); /* Для Firefox */
+  -ms-transform: rotate(42deg); /* Для IE */
+  -webkit-transform: rotate(42deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(42deg); /* Для Opera */
+  transform: rotate(42deg);
+  z-index: -1;
+  background-image:url('../images/rails.png');
+  background-size: contain;
+
+  .station3 {
+    border: 1px solid #333;
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 90px;
+    border-radius: 50%
+  }
+}
+.train3:before {
+  content: url(../images/train3.png);
+  display: block;
+  background-size: contain;
+  height: 50px;
+  position: absolute;
+  width: 40px;
+  z-index: 10;
+  left: -8px
+}
+.rotated3:before {
+  transform: rotate(-121deg);
+}

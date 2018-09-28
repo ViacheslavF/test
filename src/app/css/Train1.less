@@ -1,0 +1,37 @@
+#train1 {
+  top: 290px;
+  -moz-transform: rotate(38.3deg);
+  -ms-transform: rotate(38.3deg);
+  -webkit-transform: rotate(38.3deg);
+  -o-transform: rotate(38.3deg);
+  transform: rotate(38.3deg);
+  position: absolute;
+  left: 24px;
+  z-index: -1;
+  background-image: url('../images/rails2.png');
+  background-size: contain;
+
+  .station1 {
+    border: 1px solid #333;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 90px;
+  }
+}
+
+.train1:before {
+  content: url(../images/train.png);
+  display: block;
+  background-size: contain;
+  height: 50px;
+  position: absolute;
+  width: 40px;
+  z-index: 10;
+  top: -10px
+}
+.rotated1:before {
+  transform: rotate(-32deg);
+  margin-left: -14px;
+}

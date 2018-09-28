@@ -1,0 +1,16 @@
+{
+  "trains": [
+    {
+      "id": 1,
+      "stations": ["Portland", "Boston", "Los Angeles", "Chicago", "Philadelphia", "San Francisco"]
+    },
+    {
+      "id": 2,
+      "stations": ["New York", "Washington", "Los Angeles", "Connecticut", "New Jersey", "San Antonio", "San Diego"]
+    },
+    {
+      "id": 3,
+      "stations": ["San Jose", "Austin", "New Jersey", "Chicago", "Columbus", "Detroit"]
+    }
+  ]
+}
