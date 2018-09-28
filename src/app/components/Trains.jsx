@@ -16,7 +16,10 @@ class Trains extends Component {
   componentDidMount() {
     fetch('../../trains.json')
     .then(response => response.json())
-    .then(data => this.setState({ trainsCollection: data.trains }));
+    .then(data => this.setState({ trainsCollection: data.trains }))
+    .catch(error => {
+      alert('There has been a problem with API: ' + error.message);
+    });
   }
 
   deleteClass() {
